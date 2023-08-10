@@ -1,0 +1,26 @@
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background:rgb(107, 0, 189);
+  background: radial-gradient(circle, rgb(107, 0, 189) 0%,rgb(107, 0, 189) 25%, rgb(45, 3, 65) 87%, rgba(0,0,0,1) 100%, rgba(205,0,255,1) 100%, rgba(0,0,0,1) 100%);
+  color: rgb(255, 255, 255);
+}
+
+.mainSection{
+  flex-grow: 1;
+}
+
+.bg-warning-2{
+  background-color: rgb(255, 242, 0);
+  border-radius: 20px;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+}
+.text-decoration{
+  text-decoration: underline;
+  text-decoration-color: rgb(255, 255, 255); 
+  text-decoration-thickness: 3px; 
+}
+
+
